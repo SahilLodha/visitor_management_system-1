@@ -5,22 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>visitor-detail</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
     <!----===== Boxicons CSS ===== -->
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
     <!-- imports for data tables -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.2.min.js"
-      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css" />
 
@@ -83,10 +74,7 @@
 
                 <li class="m-2 cursor">
                   <!-- DROPDOWN COMPONENT -->
-                  <div
-                    class="user-select-none justify-content-between align-items-center p-1 rounded-2 dropdown-action position-relative cursor d-flex user-select-none align-items-center justify-content-between d-flex cursor text-black position-relative"
-                    onclick="dropDown(this)"
-                  >
+                  <div class="user-select-none justify-content-between align-items-center p-1 rounded-2 dropdown-action position-relative cursor d-flex user-select-none align-items-center justify-content-between d-flex cursor text-black position-relative" onclick="dropDown(this)">
                     <div class="d-flex align-items-center">
                       <div class="avatar-container d-flex">
                         <div class="profile d-flex position-relative d-flex position-relative">
@@ -99,9 +87,7 @@
                       </span>
                     </div>
                   </div>
-                  <div
-                    class="dropdown-content rounded align-items-center flex-column z-index-2 mt-1 overflow-hidden bg-white d-flex p-0 position-absolute mt-1 overflow-hidden position-absolute bg-white d-flex align-items-center p-0 flex-column"
-                  >
+                  <div class="dropdown-content rounded align-items-center flex-column z-index-2 mt-1 overflow-hidden bg-white d-flex p-0 position-absolute mt-1 overflow-hidden position-absolute bg-white d-flex align-items-center p-0 flex-column">
                     <ul class="p-1 list-unstyled w-100">
                       <li class="p-1 poppins_400 cursor rounded-1">
                         <a class="p-1 d-flex align-items-center text=black text-decoration-none text-black p-0 d-flex align-items-center" href="#">
@@ -142,79 +128,29 @@
             <form id="toggle-edit-input-container" action="">
               <div class="px-2 mt-4 d-flex justify-content-between">
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="text"
-                    id="username"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your username"
-                    value="Kshitiz"
-                    disabled
-                  />
+                  <input required type="text" id="username" class="form__field w-100 bg-transparent" placeholder="Your username" value="Kshitiz" disabled />
                   <label for="username" class="form__label form-field-label">Your username</label>
                 </div>
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="tel"
-                    minlength="6"
-                    maxlength="15"
-                    id="contact"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your contact number"
-                    value="+977 9816008152"
-                    disabled
-                  />
+                  <input required type="tel" minlength="6" maxlength="15" id="contact" class="form__field w-100 bg-transparent" placeholder="Your contact number" value="+977 9816008152" disabled />
                   <label for="contact" class="form__label form-field-label">Your contact number</label>
                 </div>
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="text"
-                    id="meeting-person"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your meeting person"
-                    value="Dennis Watson "
-                    disabled
-                  />
+                  <input required type="text" id="meeting-person" class="form__field w-100 bg-transparent" placeholder="Your meeting person" value="Dennis Watson " disabled />
                   <label for="meeting-person" class="form__label form-field-label">Your meeting person</label>
                 </div>
               </div>
               <div class="px-2 mt-4 d-flex justify-content-between">
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="number"
-                    id="id-number"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your id number"
-                    value="4013"
-                    disabled
-                  />
+                  <input required type="number" id="id-number" class="form__field w-100 bg-transparent" placeholder="Your id number" value="4013" disabled />
                   <label for="id-number" class="form__label form-field-label">Your id number</label>
                 </div>
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="time"
-                    id="in-time"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your in time"
-                    value="09:00"
-                    disabled
-                  />
+                  <input required type="time" id="in-time" class="form__field w-100 bg-transparent" placeholder="Your in time" value="09:00" disabled />
                   <label for="in-time" class="form__label form-field-label">In time</label>
                 </div>
                 <div class="form__group w-100 mx-2 position-relative">
-                  <input
-                    required
-                    type="time"
-                    id="out-time"
-                    class="form__field w-100 bg-transparent"
-                    placeholder="Your out time"
-                    value="17:00"
-                    disabled
-                  />
+                  <input required type="time" id="out-time" class="form__field w-100 bg-transparent" placeholder="Your out time" value="17:00" disabled />
                   <label for="out-time" class="form__label form-field-label">Out time</label>
                 </div>
               </div>
@@ -268,22 +204,10 @@ It has made our lives easy, comfortable, healthy, and enjoyable. It has brought 
       </section>
     </main>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
     <script>
       const body = document.querySelector("body"),

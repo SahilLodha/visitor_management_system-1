@@ -76,6 +76,11 @@ textarea::-webkit-scrollbar-thumb {
   max-width: 72rem;
 }
 
+#login-mini-logo {
+  height: 45px;
+  width: 45px;
+}
+
 .spread-shadow {
   box-shadow: 10px 10px 76px 17px rgba(179, 179, 179, 0.31);
   -webkit-box-shadow: 10px 10px 76px 17px rgba(179, 179, 179, 0.31);
